@@ -1,0 +1,49 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url('https://i.pinimg.com/originals/57/52/c9/5752c94023c5fef97093611da3d247fc.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*phone*/
+@media screen and (min-width: 450px) {
+   .icongame {
+       width: 50%
+   }
+}
+ 
+/*tablet*/
+@media screen and (min-width: 550px) {
+   .
+}
+ 
+/*desktop*/
+@media screen and (min-width: 800px) {
+   .container {
+       width: 800px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+.PP {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 30%;
+}
+.container .title {
+  display: block;
+  position:relative;}
+.title h2{text-align: center;background-color: #f9f9f9;line-height: 32px;margin: 1% 20vw;}
+.title p{text-align: center;background-color: #f9f9f9;}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
