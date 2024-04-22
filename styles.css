@@ -1,45 +1,42 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw
 }
+
 body {
-  background-image: url('https://i.pinimg.com/originals/57/52/c9/5752c94023c5fef97093611da3d247fc.gif');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  /* Buat bekgrond estetik */
 }
-/*phone*/
-@media screen and (min-width: 450px) {
-   .icongame {
-       width: 50%
-   }
-}
- 
-/*tablet*/
-@media screen and (min-width: 550px) {
-   .
-}
- 
-/*desktop*/
-@media screen and (min-width: 800px) {
-   .container {
-       width: 800px;
-       margin-left: auto;
-       margin-right: auto;
-   }
-}
-.PP {
-	display: block;
+
+.profile-picture {
+  display: block;
+  margin-top: 1vh;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  width: 30%;
+  width: 30vw;
+  aspect-ratio: 1 / 1;
 }
+
 .container .title {
   display: block;
-  position:relative;}
-.title h2{text-align: center;background-color: #f9f9f9;line-height: 32px;margin: 1% 20vw;}
-.title p{text-align: center;background-color: #f9f9f9;}
+  position: relative;
+}
+
+.title h2 {
+  text-align: center;
+  line-height: 32px;
+  margin: 1vh 30vw;
+  border-radius: 20px;
+  background-color:#ffffff;
+
+}
+
+.title p {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 1vh 20vw;
+  border-radius: 30px;
+}
 
 .center {
   display: flex;
